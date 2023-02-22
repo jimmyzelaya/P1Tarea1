@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="P1Tarea1.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Tarea 1.1" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        
+        <Label Text="App elaborada por Jimmy " FontSize="16" Padding="30,0,30,30"/>
+
+        <Label Text="Numero 1" FontSize="Title" Padding="5,0,0,0"/>
+        <Entry x:Name="n1" Placeholder="Ingrese primer valor" Keyboard="Numeric" Margin="5,0,0,0" FontSize="Small"/>
+
+        <Label Text="Numero 2" FontSize="Title" Padding="5,0,0,0"/>
+        <Entry x:Name="n2" Placeholder="Ingrese segundo valor" Keyboard="Numeric" Margin="5,0,0,0" FontSize="Small"/>
+
+
+
+        <Button Text="SUMA" x:Name="btnSuma" Clicked="btnSumar_Clicked" BackgroundColor="Gold"/>
+        <Button Text="RESTA" x:Name="btnResta" Clicked="btnResta_Clicked" BackgroundColor="Gold"/>
+        <Button Text="DIVISION" x:Name="btnDivision" Clicked="btnDivision_Clicked" BackgroundColor="Gold"/>
+        <Button Text="MULTIPLICACION" x:Name="btnMultiplicacion" Clicked="btnMultiplicacion_Clicked" BackgroundColor="Gold"/>
+    
+    </StackLayout>
+
+</ContentPage>
